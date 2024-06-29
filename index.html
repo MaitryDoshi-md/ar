@@ -11,15 +11,9 @@
   <body>
     <a-scene mindar-image="imageTargetSrc: ./targets.mind;" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights">
       <a-assets>
-         
+    
+        <img id="immaageee" src="./immaageee.png" crossorigin="anonymous">
         
-          <video src="./fmsol.mp4"
-                preload="auto" id="vid" response-type="arraybuffer" loop  
-                crossorigin webkit-playsinline autoplay="false" playsinline>
-            </video>
-        <img id="btninsta" src="./insta_btn.png" crossorigin="anonymous">
-        <img id="btnphone" src="./call.png" crossorigin="anonymous">
-
       </a-assets>
       <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable"></a-camera>
 
